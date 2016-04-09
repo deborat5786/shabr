@@ -52,17 +52,3 @@ h5{
     h2 {
         font-size: 50px;
     }
-<<<<<<< HEAD
-    
-    /*medium*/
-    @media only screen and (min-width: 992px) {
-        h1{ 
-            font-size: 70px;
-            }
-        h2{
-            font-size: 50px;
-        }
-}
-=======
-}
->>>>>>> dd1740d7ab2607eaba8ea7454b97a344de9f92ab
