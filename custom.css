@@ -11,16 +11,9 @@
 
 h1{
     text-align: center;
-    font-family: cursive;
-    color: black;
+    font-family: cursive
 }
 
-h5{
-    text-align: center;
-    font-family: monospace;
-    color: gra;
-}
-
-h4{
-    text-align: center;
+#gallery{
+background-image: ".../bootstrap/shabr/img/balloon-2.jpg"    
 }
