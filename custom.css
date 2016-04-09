@@ -9,53 +9,42 @@
     height: 100%;
 }
 
-h1{
+h1 {
     text-align: center;
     font-family: cursive
 }
 
-<<<<<<< HEAD
-#gallery{
-background-image: ".../bootstrap/shabr/img/balloon-2.jpg"    
-}
-=======
-h5{
+#gallery {
+    background-image: ".../bootstrap/shabr/img/balloon-2.jpg";
     text-align: center;
     font-family: monospace;
-<<<<<<< HEAD
-
     color: black;
-=======
     color: gray;
->>>>>>> 15b5bb9262c979a322ba265a03b60e48f9cfe1f4
 }
 
 
-/*small*/ 
-    @media only screen and (min-width: 768px) {
-        h1{
-            font-size: 10px;
-        }
-        h2 {
-            font-size: 70px;
-        }
-        .nav {
-            size: 100% ;
-        }
-        
-    }
-    
-    /*medium*/
-    @media only screen and (min-width: 992px) {
-        h1{ 
-            font-size: 70px;
-            }
-        h2{
-            font-size: 50px;
-        }
-        
-    } 
-    
-  
+/*small*/
 
->>>>>>> 8143b51d47d45a129ab7847960782b2c07af31b1
+@media only screen and (min-width: 768px) {
+    h1 {
+        font-size: 10px;
+    }
+    h2 {
+        font-size: 70px;
+    }
+    .nav {
+        size: 100%;
+    }
+}
+
+
+/*medium*/
+
+@media only screen and (min-width: 992px) {
+    h1 {
+        font-size: 70px;
+    }
+    h2 {
+        font-size: 50px;
+    }
+}
