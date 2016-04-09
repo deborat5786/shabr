@@ -14,10 +14,11 @@ h1 {
     font-family: cursive
 }
 
-h5{
+h5 {
     text-align: center;
     font-family: monospace;
 }
+
 #gallery {
     background-image: ".../bootstrap/shabr/img/balloon-2.jpg";
     text-align: center;
@@ -25,7 +26,6 @@ h5{
     color: black;
     color: gray;
 }
-
 
 
 /*small*/
@@ -52,16 +52,16 @@ h5{
     h2 {
         font-size: 50px;
     }
-
-    
-    /*medium*/
-    @media only screen and (min-width: 992px) {
-        h1{ 
-            font-size: 70px;
-            }
-        h2{
-            font-size: 50px;
-        }
 }
 
 
+/*medium*/
+
+@media only screen and (min-width: 992px) {
+    h1 {
+        font-size: 70px;
+    }
+    h2 {
+        font-size: 50px;
+    }
+}
