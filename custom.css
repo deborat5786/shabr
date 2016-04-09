@@ -9,37 +9,50 @@
     height: 100%;
 }
 
-h1{
+h1 {
     text-align: center;
     font-family: cursive
-}
-
-#gallery{
-background-image: ".../bootstrap/shabr/img/balloon-2.jpg"    
 }
 
 h5{
     text-align: center;
     font-family: monospace;
-
-
+}
+#gallery {
+    background-image: ".../bootstrap/shabr/img/balloon-2.jpg";
+    text-align: center;
+    font-family: monospace;
     color: black;
     color: gray;
+}
 
 
-/*small*/ 
-    @media only screen and (min-width: 768px) {
-        h1{
-            font-size: 10px;
-        }
-        h2 {
-            font-size: 70px;
-        }
-        .nav {
-            size: 100% ;
-        }
-        
+
+/*small*/
+
+@media only screen and (min-width: 768px) {
+    h1 {
+        font-size: 10px;
     }
+    h2 {
+        font-size: 70px;
+    }
+    .nav {
+        size: 100%;
+    }
+}
+
+
+/*medium*/
+
+@media only screen and (min-width: 992px) {
+    h1 {
+        font-size: 70px;
+    }
+    h2 {
+        font-size: 50px;
+    }
+<<<<<<< HEAD
     
     /*medium*/
     @media only screen and (min-width: 992px) {
@@ -50,3 +63,6 @@ h5{
             font-size: 50px;
         }
 }
+=======
+}
+>>>>>>> dd1740d7ab2607eaba8ea7454b97a344de9f92ab
