@@ -19,6 +19,11 @@ h5 {
     font-family: monospace;
 }
 
+h4 {
+    font-family: serif;
+    color: white;
+}
+
 #gallery {
     background-image: ".../bootstrap/shabr/img/balloon-2.jpg";
     text-align: center;
