@@ -1,10 +1,15 @@
-.jumbotron{
+.jumbotron {
     color: white;
     font-family: fantasy;
     text-align: center;
-    background: rgb(200, 54, 54); /* This is for ie8 and below */
-    background: rgba(128, 128, 128, 0.5); 
+    background: rgb(200, 54, 54);
+    /* This is for ie8 and below */
+    background: rgba(128, 128, 128, 0.5);
     width: 100%;
     height: 100%;
+}
 
+h1{
+    text-align: center;
+    font-family: cursive
 }
