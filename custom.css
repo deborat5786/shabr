@@ -31,7 +31,9 @@ h4 {
     color: black;
     color: gray;
 }
-
+.row, .row1, .row2, .row3, h1, h3, p{
+    color: white;
+}
 
 /*small*/
 
