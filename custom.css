@@ -9,15 +9,15 @@
     height: 100%;
 }
 
-h1{
+h1 {
     text-align: center;
-    font-family: cursive;
-    color: black;
+    font-family: fantasy;
 }
 
-h5{
+h5 {
     text-align: center;
     font-family: monospace;
+
 
     color: gray;
 
@@ -36,18 +36,49 @@ h5{
             size: 100% ;
         }
         
+
+}
+
+h4 {
+    font-family: serif;
+    color: white;
+}
+
+#gallery {
+    background-image: ".../bootstrap/shabr/img/balloon-2.jpg";
+    text-align: center;
+    font-family: monospace;
+    color: black;
+    color: gray;
+}
+.row, .row1, .row2, .row3, h1, h3, p{
+    color: white;
+}
+
+/*small*/
+
+@media only screen and (min-width: 768px) {
+    h1 {
+        font-size: 10px;
     }
-    
-    /*medium*/
-    @media only screen and (min-width: 992px) {
-        h1{ 
-            font-size: 70px;
-            }
-        h2{
-            font-size: 50px;
-        }
-        
-    } 
-    
-  
+    h2 {
+        font-size: 70px;
+
+    }
+    .nav {
+        size: 100%;
+    }
+}
+
+
+/*medium*/
+
+@media only screen and (min-width: 992px) {
+    h1 {
+        font-size: 70px;
+    }
+    h2 {
+        font-size: 50px;
+    }
+}
 
